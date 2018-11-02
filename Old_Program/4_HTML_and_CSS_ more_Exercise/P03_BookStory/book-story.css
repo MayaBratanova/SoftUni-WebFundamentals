@@ -1,0 +1,20 @@
+#wrapper{
+    color:black;
+    background: #dddddd;
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px 10px;
+    border:2px solid black;
+}
+h1{
+    text-align: center;
+}
+em{
+    font-style: italic;
+}
+q::before{
+    content: open-quote;
+}
+q::after{
+    content: close-quote;
+}

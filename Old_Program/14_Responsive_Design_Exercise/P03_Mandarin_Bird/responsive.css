@@ -1,0 +1,87 @@
+@media screen and (max-width:1200px){
+    #wrapper {
+        width: 100%;
+    }
+
+    header, main {
+        width: 80%;
+    }
+
+    header {
+        background-size: cover;
+    }
+
+    header > h1 {
+        font-size: 6em;
+        line-height: 0.8em;
+    }
+
+    header nav > ul li {
+        width: 20%;
+    }
+
+    header > p {
+        color: #f26013;
+    }
+
+    main section {
+        width: 90%;
+        margin: 40px auto 0;
+        float: none;
+    }
+
+    main aside {
+        margin: 0 auto 20px;
+        width: 90%;
+        float: none;
+    }
+
+    main > aside > article {
+        margin-right: 0;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer p {
+        margin-left: 0;
+    }
+
+}
+@media screen and (max-width:730px){
+    header{
+        
+        border: none;     
+       
+    }
+    header nav > ul li {
+        width: 100%;
+        display: block;        
+        float: none;
+    }
+    
+    header > nav {    
+        height: auto;
+    }
+    main section > div{
+        height: auto;
+    }
+    
+    main section > div > div{
+        float: none;        
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+        background: #B7CC89;
+        height: 170px;
+    }
+    main section article h3{
+        text-align: center;
+    }
+    aside article h1, h2{
+        text-align: center;
+    }
+    
+    
+}

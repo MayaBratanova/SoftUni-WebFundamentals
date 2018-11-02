@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Lato', sans-serif;
+}
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0,0.5)),
+    url(../img/background-header.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+}
+header img{    
+    width: 11%;
+    padding-left: 1rem;  
+}
+body > header > p:nth-child(2){
+    text-align: center;
+    font-size: 26px;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px #f7f1f1;
+}
+body > header > h1{
+    text-align: center;
+}
+body > header > p:nth-child(4){
+    text-align: center;
+    text-shadow: 2px 1px 2px #f7f1f1;
+    font-style: italic;
+    width: 32%;
+    display: inline-block;
+    margin-left: 29rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+body > header > div{
+    text-align: center;
+    padding-bottom: 5rem;
+}
+#first-btn{
+    font-weight: 100;
+    background: #332E62;
+    color: white;
+    border-radius: 24px;
+    padding: 0.5rem 0.8rem;
+    border: none;
+    font-size: 14px;
+    margin-right: 0.8rem;
+}
+#second-btn{
+    font-weight: 100;
+    background: #F42257;
+    color: white;
+    border-radius: 24px;
+    padding: 0.5rem 0.8rem;
+    border: none;
+    font-size: 14px;
+    margin-right: 0.8rem;
+}
+#first-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding: 2rem 0;
+}
+#first-section article{
+    width: 25%;
+}
+#first-section i{
+    border: 2px solid #BF7B39;
+    border-radius: 50px;
+    padding: 1.2rem;
+    color: #BF7B39;
+    margin-bottom: 1rem;
+    font-size: 24px;
+}
+#first-section > article:nth-child(3) > i{
+    width: 24px;
+    height: 24px;
+}
+#first-section > article > p{
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 0.5rem;
+    text-shadow: 2px 1px 2px #777777;
+}
+#first-section h3{
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 2px 1px 2px #777777;
+}
+#second{
+    background: url(../img/moon.jpg) no-repeat center center;
+    background-size: cover;
+    padding-bottom: 3rem;
+}
+#second div:nth-child(1){
+    padding: 0 1rem 0 1rem;
+    background: rgba(76,76,76,0.8);
+    border: 2px solid #BF7B39;
+    width: 25%;
+    height: 360px;
+    margin-left: 11rem;
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+#second > div:nth-child(1) > h3{
+    padding: 3rem 0 1rem 0;    
+}
+#second > div:nth-child(1) > p:nth-child(2){
+    font-size: 12px;
+    padding: 0 0 2rem 0;
+}
+#second > div:nth-child(1) > p:nth-child(3){
+    font-size: 12px;
+    
+}
+#second > div:nth-child(1) > p:nth-child(4){
+    margin-top: 6rem;   
+}
+#second > div:nth-child(1) > p:nth-child(4) > span:nth-child(1){
+    font-style: normal;
+    color: black;
+    border-radius: 50px;
+    padding: 1.9rem 0.5rem;
+    font-size: 12px;   
+    margin-right: 5.5rem;    
+    background-image: linear-gradient(to right, #ffa951, #ffb651, #ffc351, #ffd154, #ffde58);
+}
+#second > div:nth-child(1) > p:nth-child(4) > span:nth-child(2){
+    font-style: normal;
+    color: black;
+    border-radius: 50px;
+    padding: 1.9rem 0.5rem;
+    font-size: 12px;    
+    background-image: linear-gradient(to right, #ffa951, #ffb651, #ffc351, #ffd154, #ffde58);
+}
+#second > div:nth-child(2) > p:nth-child(1){
+    color: white;
+    font-size: 12px;   
+    margin: 3rem 0 0 11rem;
+    display: inline-block;
+}
+#second > div:nth-child(2) > p:nth-child(1) > span{
+    color: #BF7B39;
+    text-transform: uppercase;
+    margin-right: 44rem;
+
+}
+#second > div:nth-child(2) > p:nth-child(2){
+    display: inline-block;
+    color: white;
+}
+#second > div:nth-child(2) > p:nth-child(2) > i.fab.fa-facebook-square{
+    color: #0000FC;
+    border: 1px solid #0000FC;
+    border-radius: 50px;
+    padding: 0.3rem;
+}
+#second > div:nth-child(2) > p:nth-child(2) > i.fas.fa-dove{
+    color: #00C2FE;
+    border: 1px solid #00C2FE;
+    border-radius: 50px;
+    padding: 0.3rem;
+}
+#second > div:nth-child(2) > p:nth-child(2) > i.fab.fa-instagram{
+    color: #65246F;
+    border: 1px solid #65246F;
+    border-radius: 50px;
+    padding: 0.3rem;
+}
+

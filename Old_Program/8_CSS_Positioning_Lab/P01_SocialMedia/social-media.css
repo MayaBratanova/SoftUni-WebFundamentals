@@ -1,0 +1,40 @@
+body{
+    background: #292929;
+    color: white;
+   
+}
+li{
+    text-transform: capitalize;
+    color:#B9B99B;
+    text-decoration-style: none;
+    list-style-type: none;
+    
+}
+.simple ul{
+    text-align: left;
+    padding-left: 0;
+    padding-top: 5%;
+}
+.simple > li{
+    color:white;
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: bold;
+    margin-right: 5%;
+}
+.simple li:last-of-type ul li{
+    display: inline-block;
+    padding-right: 13%;
+    border: 1px solid white;    
+    color: white;
+    padding: 5%;
+}
+.simple li:last-of-type ul li:hover{
+    cursor: pointer;
+    color: black;
+    background: white;
+}
+i{
+    text-align: center;
+}

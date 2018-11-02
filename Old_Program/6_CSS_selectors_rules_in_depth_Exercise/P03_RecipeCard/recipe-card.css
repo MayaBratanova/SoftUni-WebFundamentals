@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400');
+
+body{
+    font-family: 'Lato', sans-serif;
+    background: #333333;
+    font-size: 16px;
+}
+main{
+    background: url(../P03_RecipeCard/images/food-image-bg.png) center center;
+    background-size: cover;
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size:40px;
+    float: right;
+    padding-right: 100px;
+    padding-top: 33px;
+}
+.recipies-info p {
+    display: inline-block;
+    margin-top:60px;
+    padding-right: 40px;
+}
+.recipies-info{
+    margin-left: 80px;
+}
+span{
+    color:#b5c640;
+}
+button{
+    margin-left: 300px;
+    margin-top: 20px;
+    background: transparent;
+    color: #ffffff;
+    border-radius: 15px;
+    padding: 8px 16px;   
+    border: 2px solid #ffffff;
+}
+button:hover{
+    color: #ffffff;
+    cursor: pointer;
+    background: #b5c640;
+    border:2px solid #b5c640;
+}
+.prep-steps{    
+    float: right;
+    width: 60%;
+    padding-right: 50px;
+}
+.prep-steps::first-letter{
+    text-transform: uppercase;
+}
+li{
+    list-style: none;
+    padding-bottom: 10px;
+}

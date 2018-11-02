@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right, #a0685c, #b3826e, #c69d83, #d8b89b, #ead4b5);
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    background: white;
+    border-radius: 0.5rem;
+    width: 50%;
+    margin: 2rem auto;
+    display: flex;
+    padding: 2rem;
+}
+img{
+    max-width: 80%;
+    height: auto;
+}
+.img{
+    width: 50%;
+}
+.forms{
+    width: 35%;
+    margin-top: 2rem;
+}
+h5{
+    font-size: 16px;
+}
+body > div > div.forms > form:nth-child(1) > h5{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.first > input{
+    background: #E6E6E6;
+    color: #666666;
+    border: none;
+    border-radius: 18px;
+    padding: 0.5rem;
+    padding-left: 2.5rem;
+    margin-bottom: 0.6rem;
+    outline: none;
+}
+.first i{
+    color: #666666;
+    position: relative;
+    left: 27px;
+    font-size: 12px;
+}
+body > div > div.forms > form.second > h5{
+    margin-top: 1rem;
+}
+input[type="radio"] {
+    position: absolute;
+    visibility: hidden;
+}
+
+.second span:before {  
+    content: '\25EF'; 
+    position: absolute; 
+    right: 74px;
+}
+.second{
+    margin-bottom: 1.5rem;
+}
+input[type="submit"]{
+    background: #8E6B52;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 16px;
+    padding: 0.5rem 2.3rem;
+    text-transform: uppercase;
+}
+.second span{
+    color: #ADADAD;
+    position: relative;
+    margin-left: 1rem;
+}
+body > div > div.forms > p:nth-child(4){
+    color: #ADADAD;
+    font-size: 12px;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+body > div > div.forms > p:nth-child(4) a{
+    color: #ADADAD;
+    font-size: 12px;
+    font-weight: bold;
+}
+body > div > div.forms > p:nth-child(5){
+    text-align: center;
+    margin-top: 2rem;
+}
+body > div > div.forms > p:nth-child(5) > a{
+    color: #ADADAD;
+    font-size: 12px;
+    font-weight: bold;
+   
+}

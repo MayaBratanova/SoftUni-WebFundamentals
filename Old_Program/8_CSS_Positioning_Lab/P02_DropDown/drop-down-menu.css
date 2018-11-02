@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+body {
+  font-family: 'Open Sans',   sans-serif;
+  background: #1d211e;
+  font-size: 22px;
+  line-height: 22px;
+  color: #ffffff;
+  text-align: center; 
+}
+a{
+    color:#ffffff;
+    text-decoration-line: none;
+}
+li{
+    list-style: none;
+}
+.simple>li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav a{
+    display: block;
+}
+nav  {   
+    position: absolute; 
+}
+.simple{
+    background: #e67c1f;
+    padding-left: 0;   
+    height: 40px;
+    
+}
+.second{    
+    margin-top: 18px;
+    margin-left: 96px;
+    background: #e67c1f;
+    padding: 0;
+    position: relative;
+}
+.third{   
+   
+    background: #e67c1f;    
+    padding: 0;
+    margin-left: 89px;
+    margin-top: 0px;
+    position: relative;
+}
+nav{
+    vertical-align: middle;
+}
+
+
+
+  
+
+  
+  

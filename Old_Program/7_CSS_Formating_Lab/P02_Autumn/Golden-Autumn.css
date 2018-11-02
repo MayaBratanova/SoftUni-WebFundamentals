@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html{
+    font-family: 'Open sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    background-color: #EE7047;
+    
+}
+body{
+    width: 95%;
+    margin: 2em 1em;;
+    padding: 1em;
+     
+}
+img{
+    width: 30%;
+    float: right;       
+    border: 3px solid #EE7047;
+    border-radius: 1em;
+    margin-left: 1em;
+}
+section{
+    background-color:#F8B544;
+    border-radius: 1em;
+    margin: 2em 0;
+    padding: 2em;
+   
+}
+article{
+    border: 3px solid #D9604B;
+    border-radius: 1.5em;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+h1{
+    font-style: italic;
+    border: 3px solid #D9604B;
+    color: #453935;
+    padding: 0.5em;  
+    
+}
+
+nav li{   
+    text-transform: uppercase;
+    color:#453935;
+    border: 3px solid #D9604B;
+    border-radius: 0.7em;
+    padding: 0.8em 1em;
+    font-weight: bold;
+    margin-left: 1.5em;
+}
+h1, nav, li{
+    display: inline;
+}
+nav{
+    float: right;
+}
+p{
+    color:#453935;
+    text-align: justify;
+    font-size: 13px;
+   
+}
+p:after{
+    display: block;
+    content: '';
+    clear: both;
+}
+button{
+    border: 3px solid #D9604B;
+    border-radius: 0.5em;
+    color: #D9604B;
+    text-transform: uppercase;
+    background-color:#F8B544;
+    padding: 0.5em 1em;
+}
+footer{
+    border: 3px dotted #D9604B;
+    border-radius: 0.5em;
+    color:#453935;
+    text-transform: uppercase;
+    text-align: center;
+}

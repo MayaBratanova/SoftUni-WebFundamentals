@@ -1,0 +1,292 @@
+
+*{
+    margin:0;
+    padding: 0;
+}
+header{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(../P01_ConsultingAgency/images/Layer-759_02.jpg) no-repeat center center;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  
+}
+header nav{   
+    width: 70%; 
+    height: 3rem;    
+    margin: 0 auto;
+    background: #BA925E;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+    position: relative;
+    top: 1rem;
+    
+}
+header nav ul{       
+    width: 100%;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+header nav ul li{
+    list-style-type: none;    
+}
+
+header nav ul li a{    
+    text-decoration: none;
+    color: white;       
+}
+header h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;    
+    font-weight: 500;
+    margin: 70px 0 20px 0;
+}
+header p{
+    width: 25%;
+    color: white;
+    margin-bottom: 15px;
+    text-align: center;
+}
+header button{
+    background: #080822;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    outline: none;
+    border: none;
+    padding: 0.3rem 0.5rem;
+    margin-bottom: 13rem;
+    border-radius: 5px;
+}
+header button i{
+    color: #BA925E;
+}
+header button:hover,
+header button:hover i{
+    background: #BA925E;
+    color: #080822;
+    cursor: pointer;
+}
+.travel-business-customer{
+    width: 85%;
+    margin: 0 auto;
+    background: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size:16px;
+}
+.travel-business-customer h2{
+    text-align: center;
+    font-size: 40px;
+    margin: 2rem;
+    
+   
+}
+.travel-business-customer > div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.travel-business-customer article{
+    width: 28%;
+    text-align: left;
+    margin: 1.5rem 1.5rem;
+}
+.travel-business-customer article h5{
+    margin-left: -2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.travel-business-customer div article i{
+    background: black;
+    width: 20px;
+    height: 16px;
+    vertical-align: center;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 100px;
+    color: white;
+    padding: 0.5rem;
+}
+.banner{
+    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),
+    url(../P01_ConsultingAgency/images/steel-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+.banner p{
+    width: 30%;
+    margin: 0 auto;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+.banner::first-line{
+    color: #BA925E;
+}
+.traders{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(../P01_ConsultingAgency/images/background-choose-us.jpg) no-repeat center center;
+   background-size: cover;
+    color: white;
+    
+}
+.traders h2{
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    font-size:30px;
+    font-weight: 500;
+}
+.traders div{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-around;
+   
+}
+.traders div article{
+    width: 35%;    
+    border: 1px solid #BA925E;
+    padding: 3rem 2.5rem;
+    margin: 1rem;
+    box-sizing: border-box;
+}
+.traders div article h3{
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+.consulting-woman{
+    background: url(../P01_ConsultingAgency/images/consulting-woman.jpg) no-repeat center center;
+    background: cover;
+    padding: 3rem 2rem 0 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.first{    
+    width: 38%;    
+    background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7));
+    flex-direction: row;
+    justify-content: center;
+    padding: 2rem 1.5rem 4rem 1.5rem;
+     
+}
+.second{
+    width: 80%;
+    margin: 0 auto;
+    background: #080820;
+    color: white;
+    padding: 1rem 1rem 10rem 1rem;
+    margin-top:4rem;
+}
+.first > p {
+    text-align: left;
+    font-size: 18px;
+}
+
+.first > p:before{
+    content: '"';
+    font-size: 30px;
+    color: #BA925E;
+}
+.first > p:after{
+    content: '"';
+    font-size: 30px;
+    color: #BA925E;
+}
+.text{
+    color: #535361;
+    text-align: right;
+}
+.author{
+    font-size: 30px;
+}
+.partners{
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0 1.5rem 0;
+}
+.partners img{
+    width: 70%;
+}
+footer{
+    background: #080820;
+    color: white;
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-evenly; 
+    padding-top: 1rem;
+}
+footer > div{
+    width: 15%;
+}
+footer h3{
+    margin-bottom: 1rem;
+}
+.info-socials-container p, .extra-links ul, .images{
+    padding-left: 1.5rem;
+    font-size: 14px;
+    padding-bottom: 0.7rem;
+}
+.icons{
+    margin-left: 2rem;   
+    padding-top: 0.5rem;
+}
+.icons i{
+    width: 1rem;
+    height: 1rem;
+    padding: 0.3rem;
+    border-radius: 50px;
+    background: #838290;
+    color: #080820;
+    text-align: center;
+}
+.icons i:not(:last-child){
+    margin-right: 0.5rem;
+}
+.extra-links ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 130px;
+}
+.extra-links ul li{
+    list-style-type: none;
+    display: block;
+    width: 40%;
+}
+.extra-links ul li a{
+    text-decoration: none;
+    color: #BA925E;
+    
+    margin-bottom: 0.5rem;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.images img{
+    width: 33%;
+    height: 60px;
+}

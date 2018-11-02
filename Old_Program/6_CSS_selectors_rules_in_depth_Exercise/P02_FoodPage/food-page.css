@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400');
+body{
+    font-family: 'Lato', sans-serif;
+}
+header{
+    background: url(../P02_FoodPage/images/header.jpg) no-repeat center center;
+    background-size:cover;
+    height: 150px;
+    
+}
+header h1{
+    padding-top: 60px;
+    color: white;       
+    text-align: center;
+}
+main{
+    width:80%;
+    margin: 0 auto;  
+}
+main:after{
+    display: block;
+    content:'';
+    clear: both;
+}
+
+article img{
+    width: 100%;
+}
+article p{
+    margin: 5px 0;
+}
+article h1{
+    margin-bottom: 10px;
+}
+article button{
+    border: 1px solid #ec5353;
+    border-radius: 15px;
+    background: white;
+    color: #ec5353;
+    padding: 10px 20px;
+}
+article button:hover{    
+    background: #ec5353;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.content{
+    width: 65%;
+    float: left;
+}
+aside{
+    width: 30%;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 12px;
+}
+aside img{
+    width: 100%;
+}
+

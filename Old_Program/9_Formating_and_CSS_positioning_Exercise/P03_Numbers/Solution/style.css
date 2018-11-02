@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Arial", "Helvetica", sans-serif;
+    font-size: 12px;   
+    width: 80%;
+    margin: 0 auto; 
+}
+header{
+    background: #DDDDDD;
+    color: #916ED7;
+    border-radius: 9px;
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin: 4rem 0 1rem 0;
+
+}
+main{
+    width: 97%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+main article{
+    background: #EEEEEE;
+    border-radius: 7px;
+    width: 23%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+main article .number{
+    width: 80%;
+    height: 60%;
+    background: #9470DC;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+main article .number:hover{
+    background: white;   
+    color: #9470DC; 
+    cursor: pointer;
+}
+main article .text{
+    color: #AFAEB5;
+}
+main button{
+    font-size: 14px;
+    background: #DDDDDD;
+    color: #86655D;
+    border: none;
+    padding: 1rem 3rem;
+    border-radius: 8px;
+    text-transform: capitalize;
+}
+main button:hover{
+    background: white;
+    cursor: pointer;
+}
+header h1{
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: center;    
+}

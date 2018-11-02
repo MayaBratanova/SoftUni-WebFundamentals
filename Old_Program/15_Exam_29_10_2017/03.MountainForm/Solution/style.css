@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+html{
+    font-family: 'Francois One', 'Source Sans Pro', sans-serif;
+}
+body{
+    background: #F4FCFF;
+    
+}
+article{
+    width: 30%;
+    margin: 0 auto;
+    
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 3px solid #4DDA90;
+    font-family: 'Francois One';
+    letter-spacing: -3px;
+    width: 60%;
+    margin: 0 auto;
+}
+label{
+    display: block;
+    margin-left: -9px;
+    color: #A89797;
+    margin-bottom: 0.5rem;
+}
+.star{
+    color: red;
+    font-size: 12px;
+    position: relative;
+    top: -3px;
+}
+input{    
+    width: 70%;
+    height: 1.8rem;
+    outline: none;
+    border: 1px solid #C4DFE9;
+    margin-bottom: 1rem;
+    padding-left: 3rem;
+}
+#more-info{
+    font-size: 12px;
+    color: #BFCFD4;
+}
+input[type="submit"]{
+    background: #31D47D;
+    color: white;
+    width: 29%;
+    margin-left: 13rem;
+    padding: 0;  
+}
+/* form div{
+    position: relative;
+}
+.fa-user, .fa-envelope, .fa-mobile-alt, .fa-lock{
+    position: absolute;
+    left: 11px;
+    top: 36px;    
+    border-right: 1px solid #C4DFE9;
+    padding-right: 0.5rem;
+} */
+#name{
+    position:relative;
+
+}
+body article form div:nth-child(1) input::before{
+    font-family: "FontAwesome", serif;
+    font-size: 18px;
+    margin-right: 0.7rem;
+    content: "\f002";
+}
+
+
+
+

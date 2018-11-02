@@ -1,0 +1,54 @@
+@media screen and (max-width:768px){
+    #main {
+        display: block;
+    }
+    aside {
+        width: 90%;
+        padding: 14px 18px;
+        margin: 0 auto;
+    }
+    aside img {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 1rem;
+        display: block;
+    }
+    #personal-info{
+        background: #FCFCFC;
+    }
+    #personal-info > h3{        
+        margin: 0;
+        padding: 1rem 0 0 1rem;
+    }
+    #personal-info > hr{
+        display: none;
+    }
+    main {
+        width: 95.15%;
+        margin: 0 auto;
+    }
+    .progress-bar{
+        margin: 0;
+    }
+    #work{
+        margin: 1rem 0 1rem 0;
+        padding: 1rem;
+    }
+    #education{
+        margin: 1rem 0 1rem 0;
+        padding: 1rem;
+    }
+    .uni-img-container{
+        float: none;
+        width: 31%;
+        background: none;
+        margin: 0 auto;        
+    }
+    #education > article:nth-child(2) > div{
+        text-align: center;
+    }
+    #education > article:nth-child(2) > div > p{
+        text-align: left;
+    }
+}

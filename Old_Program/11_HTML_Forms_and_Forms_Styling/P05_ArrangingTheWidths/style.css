@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+form *{
+    display: block;
+}
+form{
+    width: 30%;   
+}
+select, input, textarea{
+    width: 80%;
+}
+label{
+    color: #2C2F31;
+}

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "OpenSans-ExtraBold", "Helvetica", sans-serif;
+    font-size: 16px;
+     width: 95%;
+     background: #F0F0E8;
+     padding: 2rem;
+     color: #8B8481;
+}
+header h1{
+    color: #009288;
+    font-size: 56px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+header p{
+    text-align: center;    
+    font-weight: bold;
+    margin: 1rem;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+main article{
+    width: 22%;    
+    height: 12rem;
+    text-align: center;
+    padding: 1rem;
+}
+main article:hover{
+    background: #F6F6F5;
+    border-left: 7px solid #009288;
+
+}
+main article h5{
+    margin: 1rem;
+    font-weight: bold;
+}

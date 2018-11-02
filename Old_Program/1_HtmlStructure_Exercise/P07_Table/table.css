@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+    font-family: "Lato", sans-serif;
+
+}
+table{
+    color: #333333;
+    border-spacing: none;
+    text-align: center; 
+}
+thead{
+    color: #ffffff;
+    background-color: #90b4d6;
+    text-align: center;
+    letter-spacing: 2px;
+
+}

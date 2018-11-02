@@ -1,0 +1,25 @@
+#wrapper{
+    width: 70%;
+    margin: 0 auto;
+    background: #A6E1EC;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 8px;
+}
+img{
+    width: 35%;
+    vertical-align: middle;
+    
+}
+li{
+    list-style: none;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+}
+.text{
+   
+    color: #84B453;
+   
+}

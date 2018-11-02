@@ -1,0 +1,119 @@
+@media screen and (max-width:479px){
+    
+    body{
+      width: 100%;
+      margin: 0 auto;
+      
+    }
+    .menu{
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+    .menu ul{
+      display: none;
+    }
+    
+    .menu span::after{
+        content: "\2630";
+        margin-left: 15rem;
+    }
+    .menu span{
+      margin-left: 0;
+      display: block;
+      padding: 1.5rem;
+    }
+    .about-us {    
+        width: 100%;
+        margin: 0 auto;
+        height: auto;   
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+    
+    .about-us h1 {       
+    font-size: 20px;
+    line-height: 1.2;
+    padding: 3rem 0 1rem 1rem
+    }
+    .about-us p:nth-child(2) {
+        padding-top: 10px;
+        width: 100%;
+        margin: 0 auto;
+       
+    }
+    .about-us p:nth-child(3){
+         display: none;
+    }
+    .info{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .best-place{
+        height: auto;
+        margin-top: 10px;
+    }
+    .headings{
+        margin: 0;
+        font-size: 20px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    hr{
+        width: 24%;        
+    }
+    .paragraph{
+        width:80%;
+    }
+    .views{
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .views img{
+        max-width: 100%;
+    }
+    .views img:nth-child(1){
+        margin-bottom: 1rem;
+    }
+    #second-heading{
+        margin: 2rem 0 0 0;
+        width: 100%;
+        font-weight: bold;
+    }
+    .why-us{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+    }
+    .why-us article{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .team-presenting{
+        width: 100%;
+    }
+    .final-section{
+        width: 100%;
+        margin: 1rem auto 0;
+    }
+    .final-section p{
+        width: 100%;
+        font-size: 20px;
+        font-weight: bold;
+        
+    }
+    .headings:last-of-type {
+       width: 100%;
+    }
+    .our-team{
+        flex-direction: column;
+         align-items: center;
+    }
+    
+}
+
+  

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: "Lato", sans-serif;
+}
+body{
+    margin: 2rem 4rem;
+}
+header h1{
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+main h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:18px;
+    margin: 1rem 0;
+}
+main div, p{
+    font-family: 'Montserrat', sans-serif;
+    color: #9C9C9C;
+    margin: 1rem 0;
+}
+main p span:nth-child(1){
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #3D55BA;
+}
+main div ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+main div ul li{
+    padding-right: 0.5rem;
+    font-size: 12px;
+    
+}
+li:nth-child(2)::before {
+    content: "\2022";  
+    color: #EAE8E8; 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 0.5rem;
+    height: 1rem;
+    
+}
+li:nth-child(3)::before {
+    content: "\2022"; 
+    color: #EAE8E8; 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 0.5rem;
+    height: 1rem;
+}
+.price span:nth-child(2){
+    font-weight: bold;
+    font-size: 14px;
+}
+article img{
+    max-width: 100%;
+}
