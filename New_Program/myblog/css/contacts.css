@@ -1,0 +1,58 @@
+body > div > div > section{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+}
+.form-img{
+    width: 50%;
+    background: linear-gradient(rgba(17,17,79,0.1), rgba(17,17,79, 0.6)),
+    url(../img/industrial_worker_PNG11408.png) no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.form{
+    width: 50%;
+    background: #FAFAFA;
+    padding: 2rem 0 0 2rem;
+}
+label, input{
+    display: block;
+}
+input{
+    border: none;
+    background: #FAFAFA;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgb(17,17,79);    
+    width: 80%;
+    padding-bottom: 0.5rem;
+    padding-left: 0.7rem;
+   
+}
+textarea{
+    width: 80%;   
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(17,17,79);
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+label{
+    color: rgb(17,17,79);
+    font-size: 16px;    
+    padding-bottom: 0.5rem;
+    font-style: italic;
+}
+input[type="submit"]{
+    border: none;   
+    display: inline-block;    
+    width: auto;
+    background: rgb(17,17,79);
+    color: white;
+    border-radius: 3px;
+    padding: 0.5rem 2rem;
+    margin: 2rem 6rem 2rem 6rem
+}
