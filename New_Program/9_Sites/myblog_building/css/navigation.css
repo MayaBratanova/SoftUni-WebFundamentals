@@ -1,0 +1,130 @@
+.header div{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+.header nav.main{
+    display: flex;
+    align-items: center;
+    
+}
+body > div > header > div > nav > ul > li{
+    border-left:1px solid #11114F;
+}
+nav.main ul{   
+	padding: 0.3rem;	
+	margin: 0;
+	display: flex;
+}
+nav.main ul ul{
+    display: none;
+    position: absolute;
+    top:100%;
+    left: -0.5rem;
+    width: 10rem;
+}
+nav.main ul ul ul {
+	top: -0.5rem; right: 100%;
+	left: inherit;
+}
+nav.main ul li {
+	display: block;
+	list-style: none outside;
+	position: relative;  
+	 
+}
+
+nav > ul > li > ul li:not(:last-child) {
+	padding-bottom: 0.5rem;
+}
+
+nav > ul > li:not(:last-child) {
+	padding: 0 0.5rem 0 0;
+}
+
+nav ul li:hover > a {
+}
+
+nav ul li:hover > ul {
+	
+}
+
+nav.main ul li a {
+	display: block;
+    padding: 0.3rem 0.7rem; 
+	text-decoration: none;
+	background: transparent;
+    color: #11114F;
+	font-style: italic;
+	transition: all 0.2s ease-in-out;
+}
+
+nav.main ul li a:hover,
+nav.main ul li:hover > a {
+    background: rgba(17, 17,79, 0.5);
+	color: white; 	 
+}
+#main-nav-toggle,
+#toggle {
+	display: none;
+}
+
+#toggle {
+	position: relative;
+	flex: 1 0 100%;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	padding: 1rem 0;
+	font-family: 'Dancing Script', cursive;
+    font-style: italic;    
+	text-shadow: 5px 5px 20px rgb(0,0,0);
+	font-size: 2rem;
+}
+
+#toggle:before {
+	display: block;
+	content: '';
+	position: relative;
+	padding-right: 0.3rem;
+	font-weight: bold;
+}
+@media screen and (max-width: 800px) {
+
+	#toggle {
+		display: flex;
+		margin: 0 auto;
+	}
+
+	body > div > header > div > nav {
+		display: none;
+		border-top: 2px solid #000;
+	}
+
+	nav.main ul li:not(:first-child) {
+		padding-top: 0.5rem;
+	}
+
+	#main-nav-toggle:checked + body > div > header > div > nav {
+		display: block;
+		flex: 1 0 100%;
+	}
+
+	#main-nav-toggle:checked + header #toggle:before {
+		content: 'X';
+	}
+
+}
+
+@media screen and (min-width: 800px) {
+
+	body > div > header > div > nav ul {
+		display: flex;
+	}
+
+	body > div > header > div > nav ul li:hover > ul {
+		display: block;
+	}
+}
+
+    
+
+

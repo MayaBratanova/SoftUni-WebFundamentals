@@ -1,0 +1,236 @@
+nav.main {
+  align-self: center;
+  border-top: 1px solid rgb(255, 255, 255);
+}
+
+nav.main ul {
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+  margin: 0;
+}
+
+nav.main ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: -0.5rem;
+  width: 10rem;
+}
+
+nav.main ul ul ul {
+  top: -0.5rem;
+  right: 100%;
+  left: inherit;
+}
+
+nav.main ul li {
+  display: block;
+  list-style: none outside;
+  position: relative;
+}
+
+nav.main > ul > li > ul li:not(:last-child) {
+  padding-bottom: 0.5rem;
+}
+
+nav.main > ul > li {
+  padding: 0 0.5rem 0 0;
+}
+
+nav.main ul li:hover > a {
+}
+
+nav.main ul li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  border-radius: 0.4rem;
+  text-decoration: none;
+  /*background: #333;*/
+  font-weight: bold;
+  color: #fff;
+}
+
+nav.main ul li a:hover,
+nav.main ul li:hover > a {
+  /*background: #090;*/
+  box-sizing: border-box;
+  color: rgb(89, 214, 5);
+}
+
+#main-nav-toggle,
+#toggle {
+  display: none;
+}
+
+#toggle {
+  position: relative;
+  flex: 1 0 100%;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+#toggle:before {
+  display: block;
+  content: "";
+  position: relative;
+  padding-right: 0.3rem;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 860px) {
+ .site-text {
+    display: none;
+  }
+  nav.main ul li a {
+    background: #333;
+    font-weight: 400;
+  }
+  #toggle {
+    display: flex;
+    margin: 0 auto;
+    color: white;
+  }
+  #toggle:after {
+    content: "\f0c9";
+    display: block;
+    font-family: "FontAwesome";
+    text-align: center;
+    line-height: 50px;
+  }
+
+  nav.main {
+    display: none;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+  }
+
+  nav.main ul li:not(:first-child) {
+    padding-top: 0.5rem;
+  }
+
+  #main-nav-toggle:checked + header nav.main {
+    display: block;
+    flex: 1 0 100%;
+    ul li {
+      animation: loadMenu 0.5s 1 both;
+      @for $i from 1 through 7 {
+        &:nth-child(#{$i}) {
+          animation-delay: $i * 0.15s;
+        }
+      }
+    }
+  }
+
+  #main-nav-toggle:checked + header #toggle:after {
+    content: " X";
+  }
+}
+
+@media screen and (min-width: 860px) {
+  nav.main ul {
+    display: flex;
+  }
+
+  nav.main ul li:hover > ul {
+    display: block;
+  }
+}
+
+/*.navigation {
+	display: none;
+	position: fixed;
+	top: 0; left: 0; right: 0; bottom: 0;
+	align-items: center;
+	justify-content: center;
+	background: rgba(255,255,255,0.9);
+	/*display: flex;*/
+/*}
+
+.navigation ul {
+	padding: 0;
+	margin: 0;
+}
+
+.navigation li {
+	display: block;
+	list-style: none outside;
+	padding: 1em 0;
+	animation: moveMenuOptions 0.3s 1 ease-in forwards;
+	transform: scale(0.1) translate(0, 5rem) rotate(720deg);
+}
+.navigation li:nth-child(1){
+	animation-delay: 0.05s; 
+}
+.navigation li:nth-child(2){
+	animation-delay: 0.10s; 
+}
+.navigation li:nth-child(3){
+	animation-delay: 0.15s; 
+}
+.navigation li:nth-child(4){
+	animation-delay: 0.25s; 
+}
+
+
+.navigation a {
+	display: block;
+	padding: 1em 2em;
+	background: #FFF;
+	text-decoration: none;
+	color: #444;
+	box-shadow: 0 0 1.5rem 0.1rem rgba(0,0,0,0.1);
+}
+
+.navigation a:before {
+	margin-right: 1em;
+}
+
+#nav-main-toggle {
+	display: none;
+}
+
+.nav-toggle {
+	position: fixed;
+	top: var(--spacing-site, 2rem);
+	left: var(--spacing-site, 2rem);
+	z-index: 1000;
+	font-size: 2rem;
+	padding: 0 0.5rem;
+	animation: moveinMenuIcons 0.3s ease-in;
+}
+
+#nav-toggle-left {
+}
+
+#nav-toggle-right {
+	left: inherit;
+	right: var(--spacing-site, 2rem);
+}
+
+.nav-toggle span {
+	display: none;
+}
+
+.nav-toggle:before {
+	content: '\f0c9';
+}
+
+.nav-toggle:before {
+	margin-right: 1rem;
+}
+
+#nav-main-toggle:checked + .site-header .navigation {
+	display: flex;
+	z-index: 900;
+}
+
+#nav-main-toggle:checked + .site-header .nav-toggle:before {
+	content: '\f00d';
+	animation: jump 0.1s 1 ease-in;
+}
+#nav-toggle-left,
+#nav-toggle-right{
+	z-index: 1010;
+}*/

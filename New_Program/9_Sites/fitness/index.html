@@ -1,0 +1,17 @@
+---
+layout: site
+---
+
+
+
+<ul class="listing posts">        
+    {% for post in site.posts %}
+    
+	<li>
+		<a href="{{ site.baseurl }}{{ post.url }}">
+			<span class="title">{{ post.title }}</span>
+			<span class="date">{{ post.description }}</span>
+		</a>
+	</li>
+	{% endfor %}
+</ul>

@@ -1,0 +1,26 @@
+.contacts.first-bar {
+    padding: 0;
+    margin: 0;
+  ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    /*background: linear-gradient(to right, #d4d5d6, #a8aaab, #7f8182, #575a5b, #333636);*/
+    padding: 0.5rem 8rem 0.1rem 0;
+    li {
+      display: block;
+      list-style: outside none;
+      &:hover{
+        animation: shake 0.5s ease-in-out;
+      }
+      a{
+        text-decoration: none;
+        color: rgb(255,255,255);
+        margin: 0.5rem;
+        font-weight: 500;
+        
+      }
+    }
+  }
+}
